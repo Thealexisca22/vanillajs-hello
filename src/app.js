@@ -1,11 +1,20 @@
-import "bootstrap";
-import "./style.css";
+window.onload = function(){
+  
+  function final(){
 
+  let subjeto = ["Mi perro","Mi padre","Mi madre","Mi medico"]
+  let predicado = ["me ha dicho que no haga","no me deja que haga","no quiere que haga",]
+  let pecado = ["los deberes","el trabajo","ejercicio","el mal"]
+  let subjetoElegir = Math.floor(Math.random() * 4);
+  let predicadoElegir = Math.floor(Math.random() * 3);
+  let pecadoElegir = Math.floor(Math.random() * 4);
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+  let final1 =(subjeto[subjetoElegir] + " " + predicado[predicadoElegir] + " " + pecado[pecadoElegir])
+  return final1
+  }
+ 
+  let button = document.getElementById("boton") 
+  let mostrar = document.getElementById("mostrar")
+  button.addEventListener("click",()=>{mostrar.innerHTML = final()})
+  addEventListener("mostrar")
+}

@@ -1,5 +1,122 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+                                            
+
+
+
+
 body{
-    background: white;
+    font-family: 'Georgia', serif; 
+    background:black;
+    color: white;
+}
+
+#titulo img{
+    height: 200px;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+}
+
+#imagenes{
+  display: flex;
+  justify-content: space-between;
+  margin-top: -550px;
+  
+  
+ 
+}
+
+#lateral1{
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+#lateral2{
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+#lateral3{
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#principal{
+   display: flex;
+   justify-content: center;
+   font-size: 70px;
+}
+
+#textoc{
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  
+}
+
+#fila-central {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+#parrafo0{
+  font-size: 1.5em;
+  margin-top: 20px;
+
+}
+
+#parrafo1{
+  font-size: 1.2em;
+  margin-top: 20px;
+
+}
+
+#parrafo2{
+  font-size: 1.2em;
+  margin-top: 20px;
+
+}
+
+#boton button{
+  background-color: red;
+  margin-top: 50px;
+  border-radius: 1px;
+  font-size: 30px;
+  font-family: anton;
+}
+
+#mostrar{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+#java{
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+#excusa{
+  margin: 30px;
 }
